@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>!Guess-The-Number-Game!</title>
+    <!--//Linking the css sheet with html(Below)-->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!--The real work in the html shows here-->
+    <h1>Guess The Number</h1>
+    <p1>Enter Number Between 1--20</p1>
+    <!--Diplaying the question box-->
+    <div class="questionBox">Question Mark ?</div>
+    <!--Input for the user to enter their details-->
+    <input
+      class="guessUserInput"
+      type="Number"
+      placeholder="Enter the number here :-"
+    />
+    <!--Button to submit the guess -->
+    <button class="btnCheck">Check</button>
+    <!--Creating a message to disply for too high,low or correct-->
+    <p class="message">Start Guessing please...</p>
+    <!--Creating the score counter-->
+    <p class="labelScore">💯Score:<span class="score"> 20</span></p>
+    <!--Creating the highscore counter-->
+    <p class="labelHighscore">
+      Highest Score:<span class="highscore"> 0</span>
+    </p>
+    <!--Creating the button to restart it-->
+    <button class="btnRestart">Restart/Playagain</button>
+  </body>
+</html>
